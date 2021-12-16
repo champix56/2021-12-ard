@@ -1,10 +1,21 @@
-#include <stdlib.h>
+//
+//  main.c
+//  structure
+//
+//  Created by orsys on 16/12/2021.
+//
+
 #include <stdio.h>
-int main(){
-    float a=37.500003F;
-    printf("Bonjour\n");
-    printf("f:%f\n",a);
-    printf("3f:%3f\n",a);
-    printf("3.2f:%3.2f\n",a);
-    return EXIT_SUCCESS;
+
+struct S_{
+    float temp;
+    long pression;
+    float humidity;
+}S_meteo;
+
+int main(int argc, const char * argv[]) {
+    struct S_ meteo;
+    meteo.temp=23.4F;
+    
+    return 0;
 }
