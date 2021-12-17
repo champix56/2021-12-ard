@@ -1,8 +1,9 @@
-void init(){
+#include "st7735.h"
+void initST(){
 
   
 }
 
-void loop(){
+void loopST(S_Datas datas){
   
 }
